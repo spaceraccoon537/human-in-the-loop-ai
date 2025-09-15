@@ -1,0 +1,64 @@
+.customer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: #f5f7fa;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.input-box:focus {
+  border-color: #2196f3;
+}
+
+.ask-btn {
+  padding: 10px 18px;
+  border: none;
+  background: #2196f3;
+  color: white;
+  font-weight: bold;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.ask-btn:hover {
+  background: #1976d2;
+}
+
+.response-box {
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  background: #e3f2fd;
+  color: #0d47a1;
+  text-align: left;
+}
